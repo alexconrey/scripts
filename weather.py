@@ -1,9 +1,9 @@
 #Written by Alex Conrey - 2014
 #Released under GPLv2 
 #All that good stuff.
-#Uses weather underground API. 
-#You can use my API key, but please don't abuse it.
-
+#Usage 'python weather.py -z 60142'
+#or
+#'python weather.py -c "Arlington Heights" -s IL
 import urllib
 import urllib2
 import json
