@@ -10,7 +10,7 @@ import json
 import argparse
 import sys
 import re
-apikey = "f2e3e8a493b540f9"
+#apikey = "f2e3e8a493b540f9"
 p = argparse.ArgumentParser(description="Retrieve and display weather for desired location")
 p.add_argument("-z", dest="zip", help='ZIP Code')
 p.add_argument("-c", dest="city", help='City')
